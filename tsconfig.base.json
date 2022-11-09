@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@realtimedb/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@realtimedb/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@realtimedb/task": ["libs/task/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
